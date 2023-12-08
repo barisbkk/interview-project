@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cinzel&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  -webkit-animation: gradient 20s ease infinite;
+  animation: gradient 20s ease infinite;
+  background-color: #4158d0;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    to right,
+    #4158d0 0%,
+    #a8269d 30%,
+    #ebc47c 66%,
+    #5164ce 100%
+  );
+
+  background-size: 400% 400%;
+  height: 100vh;
+}
+.header {
+  color: azure;
+  font-family: Amatic SC, cursive;
+  margin: 1rem auto;
+  text-align: center;
+  border-bottom: 2px solid azure;
+  width: 67%;
+}
+
+.card--body {
+  padding: 1rem !important;
+  background-color: hsla(0, 14%, 99%, 0) !;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  color: #f0f8ff;
+  margin: 1rem;
+}
+
+.card--header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card--body h5 {
+  background: -webkit-linear-gradient(darkorange, yellow);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Cinzel, serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.card--body h4 {
+  cursor: pointer;
+}
+
+.card--body p {
+  font-family: Pathway Gothic One, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: justify;
+  margin-top: 1rem;
+  /* text-indent: 1.25rem; */
+}
+
+main {
+  padding: 1rem;
+  margin: 30px auto;
+  width: 70%;
+}
