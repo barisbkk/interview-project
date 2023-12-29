@@ -1,5 +1,5 @@
 import React from "react";
-import { arrowup, arrowdown } from "../helper/icon";
+import { arrowup, arrowdown } from "../../helper/icon";
 import { useState } from "react";
 
 const Card = (props) => {
